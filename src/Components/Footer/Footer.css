@@ -1,0 +1,28 @@
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    margin: .8rem auto;
+    padding: .9rem 0;
+}
+.footer li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 1rem;
+    
+}
+/*--------------- Media Query----------- */
+@media (max-width:600px){
+    .footer{
+        display: block;
+       text-align: center;
+    }
+   .footer ul li{
+    margin:10px;
+   }
+   .footer ul{
+    margin-top:10px;
+    padding-left: 0px;
+   }
+}
